@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+:root {
+  --ubuntu-orange: #E95420;
+  --bg: #ffffff;
+  --text: #2b2b2b;
+  --muted: #666666;
+  --code-bg: #f6f6f6;
+}
+
+*{box-sizing:border-box}
+body{
+  font-family: 'Ubuntu', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  margin:0;
+  color:var(--text);
+  background:var(--bg);
+  line-height:1.6;
+}
+
+.container{max-width:960px;margin:0 auto;padding:1rem;}
+
+.site-header{background:linear-gradient(90deg, rgba(233,84,32,0.06), transparent);border-bottom:4px solid var(--ubuntu-orange);} 
+.site-header h1{margin:0;padding:1rem 0;font-weight:700;} 
+.site-header a{color:var(--ubuntu-orange);text-decoration:none}
+
+a{color:var(--ubuntu-orange);text-decoration:underline}
+a:hover{text-decoration:none;opacity:0.9}
+
+.site-content h1,.site-content h2{color:var(--text);} 
+
+.site-footer{border-top:1px solid #eee;padding:1rem 0;color:var(--muted);font-size:.9rem;margin-top:2rem}
+
+pre, code{
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, "Ubuntu Mono", monospace;
+}
+pre{
+  background:var(--code-bg);
+  padding:1rem;
+  overflow:auto;
+  border-radius:6px;
+}
+
+.card{border:1px solid #eee;padding:1rem;border-radius:6px;background:#fff;box-shadow:0 1px 0 rgba(0,0,0,0.02)}

@@ -1,0 +1,13 @@
+title: Scroll-Linux
+description: Study scrolls with Ubuntu-style theme
+baseurl: ""
+url: "https://abenet15.github.io"
+markdown: kramdown
+plugins: []
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+      permalink: pretty
