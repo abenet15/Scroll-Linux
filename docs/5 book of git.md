@@ -58,3 +58,47 @@ git remote add origin https://github.com/abenet15/Scroll-Linux.git
 git branch -M main
 git push -u origin main
 ```
+
+
+
+- **Check repo status**
+  
+  bash
+  
+  ```
+  git status
+  ```
+  
+  - Shows which files you edited/added.
+
+- **Stage your changes**
+  
+  bash
+  
+  ```
+  git add .
+  ```
+  
+  - Stages all modified files. *(If you want to be precise, replace* `.` *with specific filenames.)*
+
+- **Commit your changes**
+  
+  bash
+  
+  ```
+  git commit -m "Update scrolls and config"
+  ```
+  
+  - The `-m` message should briefly describe what you changed.
+
+- **Push to GitHub**
+  
+  bash
+  
+  ```
+  git push origin main
+  ```
+  
+  - Pushes your local `main` branch to GitHub.
+  
+  - If your repo uses another branch (like `master`), replace `main` accordingly.
