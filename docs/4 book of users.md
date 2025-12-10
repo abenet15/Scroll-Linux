@@ -1,5 +1,5 @@
 ---
-title: Book of Git
+
 ---
 
 # safe process for renaming a user in Ubuntu

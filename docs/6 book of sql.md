@@ -1,5 +1,5 @@
 ---
-title: Book of Git
+
 ---
 
 # SQL Scroll
