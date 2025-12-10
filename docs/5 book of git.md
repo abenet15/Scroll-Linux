@@ -59,8 +59,6 @@ git branch -M main
 git push -u origin main
 ```
 
-
-
 - **Check repo status**
   
   bash
@@ -72,11 +70,16 @@ git push -u origin main
   - Shows which files you edited/added.
 
 - **Stage your changes**
+  add every file  
   
-  bash
-  
-  ```
+  ```bash
   git add .
+  ```
+  
+  remove deleted files
+  
+  ```bash
+  git add -u
   ```
   
   - Stages all modified files. *(If you want to be precise, replace* `.` *with specific filenames.)*
