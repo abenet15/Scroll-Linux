@@ -5,7 +5,6 @@
 **APT (Advanced Package Tool)** is the package manager used in Debian/Ubuntu systems.
 
 - **install app**
-  
   update
   
   ```bash
@@ -17,8 +16,7 @@
   > - Connects to all configured repositories (the sources listed in /etc/apt/sources.list and /etc/apt/sources.list.d/
   > - Downloads the latest metadata about packages (names, versions, dependencies).
   > - Updates the local cache stored in /var/lib/apt/lists/
-  
-  install app
+  >   install app
   
   ```bash
     sudo apt install app
@@ -63,11 +61,16 @@
   ```
   
   This removes the package and reinstalls it cleanly.
+  
+  ---
 
 - **Repair your package system**  
-  If you suspect broken dependencies:
   
-  ```ba
+  > If you suspect broken dependencies:
+  
+  ```bash
   sudo apt --fix-broken install
   sudo apt update && sudo apt upgrade
   ```
+
+---

@@ -2,28 +2,18 @@
 
 ---
 
-### Book of Navigation
+### Book of Help
 
-```text
-Navigation Commands
-├── cd       # Change directory
-├── pwd      # Print working directory
-├── ls       # List files
-├── tree     # Show directory tree
-└── find     # Search for files
+Show manual page for a command
+
+```bash
+man ls            
 ```
 
----
+help
 
-### Book of Permissions
-
-```text
-Permissions Commands
-├── chmod    # Change file permissions
-├── chown    # Change file ownership
-├── umask    # Default permission mask
-├── groups   # Show group memberships
-└── id       # Display user ID info
+```bash
+ls -h
 ```
 
 ---
@@ -81,20 +71,6 @@ System Info Commands
 ├── free     # Memory usage
 ├── uptime   # System runtime
 └── whoami   # Current user
-```
-
----
-
-## Book of Editors
-
-```text
-Editor Commands
-├── nano     # Simple text editor
-├── vim      # Advanced editor
-├── less     # View file contents
-├── cat      # Print file contents
-├── head     # First lines of file
-└── tail     # Last lines of file
 ```
 
 ---
