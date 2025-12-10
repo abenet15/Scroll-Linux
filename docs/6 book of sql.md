@@ -1,3 +1,8 @@
+---
+layout: default
+title: Book of Git
+---
+
 # SQL Scroll
 
 # 📌 Introduction

@@ -1,3 +1,8 @@
+---
+layout: default
+title: Book of Git
+---
+
 # Scroll-Linux
 
 Welcome to my study scrolls. This site collects my "Books of ..." for quick reference.
